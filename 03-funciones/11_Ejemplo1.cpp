@@ -3,10 +3,10 @@ using namespace std;
 
 void recibirValores( int &n, char &c )
 {
-	cout<<"Caracter: ";
-	cin>>c;
-	cout<<"Ingrese el número de filas: ";
-	cin>>n;
+    cout<<"Caracter : ";
+    cin>>c;
+    cout<<"Ingrese el número de filas : ";
+    cin>>n;
 };
 
 void imprimirPiramide( int x, char c )
@@ -23,11 +23,11 @@ void imprimirPiramide( int x, char c )
 
 int main()
 {
-	int filas;
-	char caracter;
+    int filas;
+    char caracter;
 
-	recibirValores( filas, caracter );
-	imprimirPiramide( filas, caracter );
+    recibirValores( filas, caracter );
+    imprimirPiramide( filas, caracter );
 
-	return 0;
+    return 0;
 }
