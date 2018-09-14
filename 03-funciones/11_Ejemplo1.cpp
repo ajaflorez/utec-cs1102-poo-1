@@ -7,7 +7,7 @@ void recibirValores( int &n, char &c )
 	cin>>c;
 	cout<<"Ingrese el número de filas: ";
 	cin>>n;
-}; 
+};  
 
 void imprimirPiramide( int x, char c )
 {
