@@ -11,7 +11,7 @@ void recibirValores( int &n, char &c )
 
 void imprimirPiramide( int x, char c )
 {
-    for( int i=0; i<x; i++ )
+	for( int i=0; i<x; i++ )
     {
         for( int j=0; j<=i; j++ )
         {
